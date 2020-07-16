@@ -5,7 +5,7 @@
     <ProjectGuid>d8b5ffe7-5022-4115-a3cc-caff6fa17891</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>StratumSocketStub.py</StartupFile>
+    <StartupFile>StratumStub.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="StratumSocketStub.py" />
+    <Compile Include="StratumStub.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
